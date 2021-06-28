@@ -11,15 +11,20 @@
 .join{
     display: table-cell;
     position:absolute;
-    text-align: right;
+    margin-left: 280px;
+}
+a{
+    text-decoration-line: none;
 }
 .empty{
     display: table-cell;
     border: 1px solid red;
 }
-.link{
-    text-decoration-line: none;
-}
 .search{
+    text-align: center;
+}
+.category{
+    border: 1px solid red;
+    width: 230px;
     text-align: center;
 }
