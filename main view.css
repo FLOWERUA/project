@@ -1,0 +1,25 @@
+.header_group{
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+.title{
+    display: table-cell;
+    text-align: center;
+    width: 100px;
+}
+.join{
+    display: table-cell;
+    position:absolute;
+    text-align: right;
+}
+.empty{
+    display: table-cell;
+    border: 1px solid red;
+}
+.link{
+    text-decoration-line: none;
+}
+.search{
+    text-align: center;
+}

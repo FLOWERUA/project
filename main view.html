@@ -5,19 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>main view</title>
+    <link rel="stylesheet" href="main view.css">
 </head>
 <!-- 메인화면 -->
 <body>
-    <div class="title">
-        <h2>맛!슐랭</h2>
-        <a href="#">로그인</a> <a href="#">회원가입</a>
+    <div class="header_group">
+        <div>
+            <p></p>
+        </div>
+        <div class="title">
+            <h2>맛!슐랭</h2>
+        </div>
+        <div class="join">
+            <div class="link">
+                <a href="#">로그인</a>
+                <a href="#">회원가입</a>
+            </div>
+        </div>
     </div>
     <hr>
+    <!-- 검색 창-->
     <div class="search">
-        <input type="text" placeholder="내 주변 맛집 검색하기">
-        <button>검색</button> <!-- 돋보기 변경하하고 text안에 삽입 예정-->
+        <form>
+            <input type="text" placeholder="내 주변 맛집 검색하기">
+            <button>검색</button> <!-- 돋보기 변경하고 text안에 삽입 예정-->
+        </form>
     </div>
+    <!-- 카테고리(하단에 swipe 기능 추가해야됨)-->
     <div class="category">
-    </div>
+        <form>
+            <select>
+                <option>지역</option>
+                <option>인플루언서 맛집</option>
+                <option>TV에 나온 맛집</option>
+            </select>
+        </form>
+    </div>  
 </body>
 </html>
