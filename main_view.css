@@ -1,0 +1,82 @@
+.header_group{
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+.title{
+    display: table-cell;
+    text-align: center;
+    width: 100px;
+}
+.join{
+    display: table-cell;
+    position:absolute;
+    margin-left: 280px;
+}
+a{
+    text-decoration-line: none;
+}
+.empty{
+    display: table-cell;
+    border: 1px solid red;
+}
+/* search 부분 */
+.search{
+   /* border: 1px solid red; */
+    position: absolute;
+    top: 19%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border: 1px solid #00cec9;
+    height: 30px;
+    border-radius: 35px;
+    padding: 5px;
+}
+.search:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+.search:hover > .search-btn{
+    background: white;
+}
+.search-btn{
+    color: #18dcff;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0px;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 30px;
+    width: 0px;
+}
+.category{
+    position:absolute;
+    top: 25%;
+    border: 1px solid red;
+    width: 150px;
+}
+.dermi{
+    transform: rotate(100deg);
+    border: 1px solid red;
+    position: absolute;
+    top: 150%;
+}
+.dermi2{
+    border: 1px solid blue;
+    position: absolute;
+    left: 150%;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- swiper 관련 내용 -->
+    <!-- 링크 : https://m.blog.naver.com/anedthh/222014406404 -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main view</title>
+    <link rel="stylesheet" href="main_view.css">
+    <link rel="stylesheet" href="../project/swiper-5.4.5/package/css/swiper.css">
+    <script src="https://kit.fontawesome.com/43a55c298a.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.6.0.min.js">
+    </script>
+    <script src="../project/swiper-5.4.5/package/js/swiper.min.js">
+    </script>
+</head>
+<!-- 메인화면 -->
+<body>
+    <div class="header_group">
+        <div>
+            <p></p>
+        </div>
+        <div class="title">
+            <h2>맛!슐랭</h2>
+        </div>
+        <div class="join">
+            <a href="#">로그인 /</a>
+            <a href="#">회원가입</a>
+        </div>
+    </div>
+    <hr>
+     <!-- 검색 창-->
+        <div class="search">
+         <input class="search-txt" type="text" placeholder="맛집 검색하기">
+         <a class="search-btn" href="#">
+            <i class="fas fa-search"></i>
+         </a> 
+        </div>
+     <!-- 카테고리(하단에 swiper 기능 추가해야됨)-->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">내용1</div>
+            <div class="swiper-slide">내용2</div>
+            <div class="swiper-slide">내용3</div>
+            <div class="swiper-slide">내용4</div>
+            <div class="swiper-slide">내용5</div>
+            <div class="swiper-slide">내용6</div>
+        </div>
+        <!-- paging 처리 -->
+        <div class="swiper-pagination"></div>
+        <!-- paging btn -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+        <div class="category">
+            <form>
+                <select>
+                    <option>지역</option>
+                    <option>인플루언서 맛집</option>
+                    <option>TV에 나온 맛집</option>
+                </select>
+            </form>
+            <!-- <div class="img">
+                <div class="dermi">
+                    <img src="https://via.placeholder.com/150"></a>
+                    <img src="https://via.placeholder.com/150"></a>
+                    <img src="https://via.placeholder.com/150"></a>
+                </div>
+                <div class="dermi2">
+                    <img src="https://via.placeholder.com/150"></a>
+                    <img src="https://via.placeholder.com/150"></a>
+                    <img src="https://via.placeholder.com/150"></a>
+                </div>
+            </div> -->
+        </div>
+        <script type="text/javascript" src="main_view.js"></script>
+</body>
+</html>
