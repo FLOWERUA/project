@@ -64,12 +64,36 @@ a{
     width: 0px;
 }
 .category{
-    position:absolute;
-    top: 25%;
-    border: 1px solid red;
-    width: 150px;
+    width: 180px;
+    text-align: center;
+    position: relative;
+    top: 10px;
 }
-.dermi{
+.swiper-container {
+    border: 1px solid red;
+    position:absolute;
+    top: 75px;
+    height: 450px;
+    width: 100%;   
+}
+.swiper-wrapper {
+    border: 1px solid red;
+}
+.img_set {
+    position:relative;
+    top: 10px;
+}
+.img{
+    position: absolute;
+    top: 60px;
+    left: 115px;
+}
+.img2{
+    position: absolute;
+    top: 200px;
+    left: 115px;
+}
+/* .dermi{
     transform: rotate(100deg);
     border: 1px solid red;
     position: absolute;
@@ -79,4 +103,4 @@ a{
     border: 1px solid blue;
     position: absolute;
     left: 150%;
-}
+} */

@@ -37,15 +37,32 @@
             <i class="fas fa-search"></i>
          </a> 
         </div>
-     <!-- 카테고리(하단에 swiper 기능 추가해야됨)-->
+     <!-- 카테고리(하단에 swiper 기능 추가함)-->
     <div class="swiper-container">
         <div class="swiper-wrapper">
-            <div class="swiper-slide">내용1</div>
+            <div class="swiper-slide">
+                <div class="category">
+                 <select>
+                    <option>지역</option>
+                    <option>인플루언서 맛집</option>
+                    <option>TV에 나온 맛집</option>
+                 </select>
+                </div>
+                <div class="img_set">
+                 <div class="img">
+                     <img src="https://via.placeholder.com/375x120"></a>
+                     <img src="https://via.placeholder.com/375x120"></a>
+                     <img src="https://via.placeholder.com/375x120"></a>
+                 </div>
+                 <div class="img2">
+                     <img src="https://via.placeholder.com/375x120"></a>
+                     <img src="https://via.placeholder.com/375x120"></a>
+                     <img src="https://via.placeholder.com/375x120"></a>
+                 </div>
+                </div>
+            </div>
             <div class="swiper-slide">내용2</div>
             <div class="swiper-slide">내용3</div>
-            <div class="swiper-slide">내용4</div>
-            <div class="swiper-slide">내용5</div>
-            <div class="swiper-slide">내용6</div>
         </div>
         <!-- paging 처리 -->
         <div class="swiper-pagination"></div>
@@ -53,14 +70,16 @@
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
     </div>
-        <div class="category">
-            <form>
+        <!-- <div class="category">
+            <div class="select">
+             <form>
                 <select>
                     <option>지역</option>
                     <option>인플루언서 맛집</option>
                     <option>TV에 나온 맛집</option>
                 </select>
             </form>
+        </div> -->
             <!-- <div class="img">
                 <div class="dermi">
                     <img src="https://via.placeholder.com/150"></a>
@@ -73,7 +92,6 @@
                     <img src="https://via.placeholder.com/150"></a>
                 </div>
             </div> -->
-        </div>
-        <script type="text/javascript" src="main_view.js"></script>
+    <script type="text/javascript" src="main_view.js"></script>
 </body>
 </html>
