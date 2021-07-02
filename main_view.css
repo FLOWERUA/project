@@ -1,47 +1,61 @@
-.header_group{
-    width: 100%;
-    display: table;
-    table-layout: fixed;
-}
-.title{
-    display: table-cell;
-    text-align: center;
-    width: 100px;
-}
-.join{
-    display: table-cell;
-    position:absolute;
-    margin-left: 280px;
+body{
+    margin: 0;
+    font-family: 'Jua', sans-serif;
+    background-color: #f7f1e3;
 }
 a{
     text-decoration-line: none;
+    color: black;
 }
-.empty{
-    display: table-cell;
-    border: 1px solid red;
+.mainbar{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color: #485460;
+    padding: 8px 12px;
+}
+.mainbar ul{
+    padding: 0;
+}
+.mainbar_title{
+    font-size: 24px;
+    color:white;
+    position: relative;
+    left: 70px;
+    /* text-align: center; */
+    display: inline-block;
+}
+.mainbar_title i{
+    color: #3c40c6;
+}
+.mainbar_join{
+    display: flex;
+    list-style: none;
+}
+.mainbar_join li{
+    padding: 8px 12px;
 }
 /* search 부분 */
 .search{
-   /* border: 1px solid red; */
     position: absolute;
     top: 19%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: white;
-    border: 1px solid #00cec9;
+    border: 1px solid #485861;
     height: 30px;
     border-radius: 35px;
     padding: 5px;
 }
 .search:hover > .search-txt{
-    width: 240px;
+    width: 500px;
     padding: 0 6px;
 }
 .search:hover > .search-btn{
     background: white;
 }
 .search-btn{
-    color: #18dcff;
+    color: #485861;
     float: right;
     width: 30px;
     height: 30px;
@@ -57,7 +71,7 @@ a{
     outline: none;
     float: left;
     padding: 0px;
-    color: white;
+    color: black;
     font-size: 16px;
     transition: 0.4s;
     line-height: 30px;
@@ -69,23 +83,29 @@ a{
     position: relative;
     top: 10px;
 }
+.back_img{
+    /* border: 1px solid red; */
+    /* background-image: url(img/empty-wooden-cutting-board-with-cooking-ingredients-picture-id510566578\ \(339×509\).jpg); */
+    position: relative;
+    top: 15px;
+    height: 520px;
+    width: 100%;
+}
 .swiper-container {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     position:absolute;
     top: 75px;
     height: 450px;
-    width: 100%;   
-}
-.swiper-wrapper {
-    border: 1px solid red;
-}
+    width: 90%;
+}    
 .img_set {
-    position:relative;
+    position: relative;
     top: 10px;
+    right: 25px;
 }
 .img{
-    position: absolute;
-    top: 60px;
+    position: relative;
+    top: 45px;
     left: 115px;
 }
 .img2{
@@ -93,14 +113,23 @@ a{
     top: 200px;
     left: 115px;
 }
-/* .dermi{
-    transform: rotate(100deg);
-    border: 1px solid red;
-    position: absolute;
-    top: 150%;
-}
-.dermi2{
-    border: 1px solid blue;
-    position: absolute;
-    left: 150%;
+/* .header_group{
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    background-color: #55efc4;
 } */
+/* .title{
+    display: table-cell;
+    text-align: center;
+    width: 100px;
+}
+.join{
+    display: table-cell;
+    position:absolute;
+    margin-left: 280px;
+}
+
+/* 
+
+ */
